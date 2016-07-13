@@ -5,9 +5,11 @@ Produces an HTML document with information on SQL Server function. Built using Y
 
 Based on Phil Factor's https://www.simple-talk.com/sql/t-sql-programming/documenting-your-sql-server-database/
 
-# Files 
+## Files 
 - **documementationTemplate.html**. Contains an HTML template, with {{tokens}} that get be replaced by the powershell script
 - **generate.ps1**. Set the parameters inside this file to conect to the right SQL Server instance. Run to generate HTML file. 
  
-# Screenshot
+## Screenshot
+Here is what the generated HTML looks like when run on a database with a single function (using the demo function [dbo.IsPositive](https://raw.githubusercontent.com/HotQuant/sql-docs/master/FunctionForDemoPurposes_fnIsPositive.sql))
+
 ![screenshot](https://raw.githubusercontent.com/HotQuant/sql-docs/master/screenshot.png)
